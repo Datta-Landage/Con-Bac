@@ -1,0 +1,41 @@
+{
+  "name": "job-management",
+  "version": "1.0.0",
+  "description": "connectingIDs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajnigandha-Jadhav/Job-Management.git"
+  },
+  "author": "RJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rajnigandha-Jadhav/Job-Management/issues"
+  },
+  "homepage": "https://github.com/Rajnigandha-Jadhav/Job-Management#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.373.0",
+    "@aws-sdk/util-base64": "^3.310.0",
+    "@azure/msal-node": "^1.18.0",
+    "aws-sdk": "^2.1418.0",
+    "axios": "^1.5.0",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.3.4",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.5",
+    "nodemon": "^3.0.1",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-microsoft": "^1.0.0",
+    "shortid": "^2.2.16"
+  }
+}
